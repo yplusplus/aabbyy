@@ -1,0 +1,1 @@
+NEERC 2010, Eastern subregional contest

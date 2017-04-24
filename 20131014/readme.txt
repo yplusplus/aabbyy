@@ -1,0 +1,1 @@
+MSU SE and Ural SU contest. Petrozavodsk training camp. Summer 2005

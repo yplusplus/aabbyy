@@ -1,0 +1,1 @@
+2011 Multi-University Training Contest 6 - Host by JLU

@@ -1,0 +1,1 @@
+Ural FU Championship 2012

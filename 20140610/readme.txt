@@ -1,0 +1,1 @@
+World Finals 2009 - Stockholm

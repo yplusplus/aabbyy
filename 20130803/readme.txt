@@ -1,0 +1,1 @@
+ICPC 2012 Asia Regional ¨C Daejeon

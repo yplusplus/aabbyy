@@ -1,0 +1,1 @@
+USU Junior Contest, October 2008

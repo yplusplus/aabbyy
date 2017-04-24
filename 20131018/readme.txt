@@ -1,0 +1,1 @@
+ACM International Collegiate Programming Contest , ACM-ICPC Japan Alumni Group Practice Contest 2010, 2010-11-28

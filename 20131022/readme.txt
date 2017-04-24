@@ -1,0 +1,1 @@
+Open Ural FU Championship 2011

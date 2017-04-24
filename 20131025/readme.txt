@@ -1,0 +1,1 @@
+Open Ural SU Championship 2010

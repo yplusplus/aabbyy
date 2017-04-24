@@ -1,0 +1,1 @@
+2008-2009 Winter Petrozavodsk Camp, Andrew Stankevich Contest 33 (ASC 33)

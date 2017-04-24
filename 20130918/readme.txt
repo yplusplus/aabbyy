@@ -1,0 +1,1 @@
+2011 Multi-University Training Contest 8 - Host by HUST

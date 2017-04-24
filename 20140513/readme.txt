@@ -1,0 +1,1 @@
+2006-2007 Summer Petrozavodsk Camp, Andrew Stankevich Contest 19 (ASC 19)

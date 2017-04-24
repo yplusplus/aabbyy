@@ -1,0 +1,22 @@
+a:
+bfs找到所有的cc以后N^3找出cc间的连边，最后做一下mst就行了
+
+b:
+枚举第一列的方法，后面即可直接确定
+
+d:
+打个表可以发现，长度为20的链只需要3W步左右即可完全覆盖，所以暴力模拟每种货币流通时间即可。
+
+h:
+设dp[i][j]表示在第j时刻，恰好在车站i下车的最小等待时间。
+转移只需要枚举各辆车进行转移，设车k到达站i的时间为timek，当前方向是forward，开到下一站的时间是need，
+dp[i + 1][timek + need] = min{dp[i][j] + timek - j | timek >= j};
+方向是backward同理。
+ans = min{dp[n][i] + T - i | T >= i};
+
+i:
+积分题，二分x的位置，然后根据是否大于半周期判断在x轴的上面还是下面
+
+j:
+设min_request[i]表示从i点实际运输p个spoons到t，所需要spoons的最小数量。
+显然min_request[t] = p，从终点逆推出所有min_requset[i]，最后答案即是min_request[s]。

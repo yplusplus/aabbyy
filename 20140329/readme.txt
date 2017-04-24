@@ -1,0 +1,1 @@
+Sichuan University Programming Contest 2012 Preliminary

@@ -1,0 +1,1 @@
+The 5th(2010) ACM Programming Contest of HUST - Onsite Contest

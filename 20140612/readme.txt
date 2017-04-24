@@ -1,0 +1,1 @@
+2009-2010 Summer Petrozavodsk Camp, Andrew Stankevich Contest 35 (ASC 35)

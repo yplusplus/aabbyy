@@ -1,0 +1,1 @@
+2010 ACM-ICPC Multi-University Training Contest£¨4£©¡ª¡ªHost by UESTC

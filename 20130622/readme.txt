@@ -1,0 +1,1 @@
+School Team Contest #2 (Winter Computer School 2010/11)

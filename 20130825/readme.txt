@@ -1,0 +1,1 @@
+2010 ACM-ICPC Multi-University Training Contest£¨3£©¡ª¡ªHost by WHU
