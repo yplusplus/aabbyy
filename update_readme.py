@@ -37,7 +37,7 @@ def walk():
 
 def main():
     training = walk()
-    readme = os.path.join(rootdir, 'readme.md')
+    readme = os.path.join(rootdir, 'readme.txt')
     with open(readme, 'w') as f:
         for t in training:
             date, contest = t
