@@ -1,45 +1,44 @@
-#include iostream
-#include cstdio
-#include cstring
-#include algorithm
+#include <iostream>
+#include <cstdio>
+#include <algorithm>
 using namespace std;
 
-const int N = 100010;
-const int mod = 1000000007;
+const int MOD = 1000000007;
+const int N = 111111;
+int pow2[N];
 
-long long mpow(long long a, long long b) {
-    long long ans = 1;
-    while (b) {
-        if (b & 1) ans = ans  a % mod;
-        a = a  a % mod;
-        b = 1;
-    }
-    return ans;
+int add(long long a, long long b) {
+    return (a + b) % MOD;
 }
 
-char s[N];
-int sum[N];
+int mul(long long a, long long b) {
+    return (a * b) % MOD;
+}
 
-int main()
-{
+int main() {
+    pow2[0] = 1;
+    for (int i = 1; i < N; i++) {
+        pow2[i] = add(pow2[i - 1], pow2[i - 1]);
+    }
     int n;
-    while (scanf(%d%s, &n, s) != EOF) {
-        for (int i = 0; i = n; i++) sum[i] = 0;
-        int m = strlen(s);
-        long long tot = 0;
-        for (int i = 0; i  m; i++) {
-            if (s[i] == '1') {
-                tot += (m - i - 1), sum[m - i - 1] = 1;
-            }
-        } 
-        for (int i = n - 2; i = 0; i--) sum[i] += sum[i + 1];
-        long long ans = mpow(2, tot);
-        for (int i = 0; i  m; i++) {
-            if (sum[i] - sum[i + 1]) {
-                ans = ans  (mpow(2, n - i - 1 - sum[i + 1]) - 1) % mod;
+    while (cin >> n) {
+        string str;
+        cin >> str;
+        reverse(str.begin(), str.end());
+        str.resize(n, '0');
+        reverse(str.begin(), str.end());
+        int cnt = 0;
+        int ans = 1;
+        //cout << str << endl;
+        for (int i = 0; i < n; i++) {
+            if (str[i] == '1') {
+                ans = mul(ans, add(pow2[i], MOD - pow2[cnt]));
+                cnt++;
+            } else {
+                ans = mul(ans, pow2[cnt]);
             }
         }
-        printf(%lldn, ans);
+        cout << ans << endl;
     }
     return 0;
 }
