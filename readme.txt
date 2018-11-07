@@ -159,3 +159,6 @@
 20180804 	牛客网暑期ACM多校训练营（第六场）
 20180811 	牛客网暑期ACM多校训练营（第八场）
 20180901 	ACM-ICPC 2018 南京赛区网络预赛
+20181012 	SnackDown 2019 - Online Qualifier
+20181019 	SnackDown 2019 - Online Round 1A
+20181103 	SnackDown 2019 - Online Pre-Elimination

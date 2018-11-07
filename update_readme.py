@@ -38,14 +38,19 @@ def walk():
 def main():
     training = walk()
     readme = os.path.join(rootdir, 'readme.txt')
+    contests = []
+    for t in training:
+        date, contest = t
+        date.strip()
+        contest.strip()
+        contest = encode(contest).strip('\r\n')
+        contests.append((date, contest))
+
+    contests.sort()
     with open(readme, 'w') as f:
-        for t in training:
-            date, contest = t
-            date.strip()
-            contest.strip()
-            contest = encode(contest).strip('\r\n')
+        for date, contest in contests:
             print >> f, date, '\t', contest
-            print date, contest.__repr__()
+            print date, '\t', contest
 
 if __name__ == '__main__':
     main()
