@@ -163,3 +163,4 @@
 20181019 	SnackDown 2019 - Online Round 1A
 20181103 	SnackDown 2019 - Online Pre-Elimination
 20190519 	The 14-th BIT Campus Programming Contest
+20190730 	2018 ICPC Asia Singapore Regional Contest
