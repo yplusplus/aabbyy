@@ -164,3 +164,4 @@
 20181103 	SnackDown 2019 - Online Pre-Elimination
 20190519 	The 14-th BIT Campus Programming Contest
 20190730 	2018 ICPC Asia Singapore Regional Contest
+20200425 	2020年“远光杯”粤澳计算机程序设计大赛网络资格赛
